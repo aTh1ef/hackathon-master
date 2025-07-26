@@ -122,8 +122,8 @@ export default function FeaturesPage() {
       description:
         "Access real-time market trends, pricing insights, and crop demand forecasting tools for better decisions",
       icon: TrendingUp,
-      href: "#",
-      available: false,
+      href: "/market-analysis",
+      available: true,
       gradient: "from-purple-500 to-pink-600",
       bgGradient: "from-gray-500/5 to-gray-600/5",
       borderColor: "border-gray-600/20",
