@@ -91,19 +91,19 @@ export default function FeaturesPage() {
       borderColor: "border-yellow-500/20 hover:border-green-400/40",
       features: ["Soil Image Detection", "Location-Based Crop Advice", "Multi-Language"],
     },
-    // {
-    //   id: "my-farm",
-    //   title: "My Farm",
-    //   description:
-    //     "Manage your farm details, get personalized AI advice for your crops, and track your farming progress",
-    //   icon: Leaf,
-    //   href: "/my-farm",
-    //   available: true,
-    //   gradient: "from-green-500 to-emerald-600",
-    //   bgGradient: "from-green-500/10 to-emerald-600/10",
-    //   borderColor: "border-green-500/20 hover:border-emerald-400/40",
-    //   features: ["Crop Management", "AI Advice", "Progress Tracking"],
-    // },
+    {
+      id: "government-schemes",
+      title: "Government Schemes",
+      description:
+        "Get information about government schemes and policies related to agriculture",
+      icon: Leaf,
+      href: "/government-schemes",
+      available: true,
+      gradient: "from-green-500 to-emerald-600",
+      bgGradient: "from-green-500/10 to-emerald-600/10",
+      borderColor: "border-green-500/20 hover:border-emerald-400/40",
+      features: ["Crop Management", "AI Advice", "Progress Tracking"],
+    },
     {
       id: "maps",
       title: "Smart Maps",
