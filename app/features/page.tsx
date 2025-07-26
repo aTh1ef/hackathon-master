@@ -1,3 +1,5 @@
+
+
 "use client"
 
 import { useState, useEffect } from "react"
@@ -103,6 +105,18 @@ export default function FeaturesPage() {
     //   features: ["Crop Management", "AI Advice", "Progress Tracking"],
     // },
     {
+      id: "maps",
+      title: "Smart Maps",
+      description: "Explore agricultural mapping, weather patterns, soil analysis, and location-based farming insights",
+      icon: Map,
+      href: "/smart-maps",
+      available: true,
+      gradient: "from-orange-500 to-red-600",
+      bgGradient: "from-gray-500/5 to-gray-600/5",
+      borderColor: "border-gray-600/20",
+      features: ["Weather Data", "Soil Analysis", "Location Insights"],
+    },
+    {
       id: "market-analysis",
       title: "Market Analysis",
       description:
@@ -115,18 +129,7 @@ export default function FeaturesPage() {
       borderColor: "border-gray-600/20",
       features: ["Price Trends", "Demand Forecast", "Market Insights"],
     },
-    {
-      id: "maps",
-      title: "Smart Maps",
-      description: "Explore agricultural mapping, weather patterns, soil analysis, and location-based farming insights",
-      icon: Map,
-      href: "#",
-      available: false,
-      gradient: "from-orange-500 to-red-600",
-      bgGradient: "from-gray-500/5 to-gray-600/5",
-      borderColor: "border-gray-600/20",
-      features: ["Weather Data", "Soil Analysis", "Location Insights"],
-    },
+   
   ]
 
   return (
