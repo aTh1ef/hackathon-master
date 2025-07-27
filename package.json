@@ -13,6 +13,8 @@
     "@emotion/is-prop-valid": "latest",
     "@genkit-ai/core": "^1.15.2",
     "@genkit-ai/googleai": "^1.15.2",
+    "@google-cloud/aiplatform": "^5.0.0",
+    "@google-cloud/vertexai": "^1.10.0",
     "@hookform/resolvers": "^3.9.1",
     "@pinecone-database/pinecone": "^6.1.2",
     "@radix-ui/react-accordion": "1.2.2",
