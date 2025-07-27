@@ -31,7 +31,7 @@ export default function DashboardEmbed() {
         <Card className="w-full shadow-2xl bg-slate-800/90 backdrop-blur-xl border-slate-600/50 animate-in fade-in-0">
           <CardHeader>
             <CardTitle className="text-white text-xl">
-              Mandi Price Trends (Looker Studio)
+              Mandi Price Trends
             </CardTitle>
           </CardHeader>
           <CardContent className="aspect-video overflow-hidden rounded-xl">

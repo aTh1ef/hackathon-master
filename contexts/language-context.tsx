@@ -32,7 +32,7 @@ const translations = {
     "prompts.potato": "Black spots appearing on potato plant stems...",
 
     // Crop Doctor Page
-    "crop.title": "Krishi Mithra AI",
+    "crop.title": "Krishi Mithr AI",
     "crop.analyze": "Analyze your crop for diseases",
     "crop.description":
       "Upload or take a photo of your crop to get instant AI-powered disease diagnosis and treatment recommendations.",
