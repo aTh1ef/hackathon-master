@@ -31,23 +31,23 @@ Krishi Mithr AI is a powerful AI-powered solution for farmers that combines Gemi
 ### 🌍 Feature 3: Soil Analysis & Crop Recommendation
 - Upload soil image → auto-detects location with Geocoding API
 - Gemini LLM offers soil-specific recommendations
-- **Tech Used:** Gemini LLM, Geocoding API, React Hook Form, Zod
+- **Tech Used:** Gemini LLM, Geocoding API, Google Genkit
 
 ### 🗺️ Feature 4: Smart Farming Maps
 - Natural language questions like "Where to buy seeds nearby?"
 - Results shown on interactive map using Google Maps API
-- **Tech Used:** Maps API, Places API, Tailwind, Lucide Icons
+- **Tech Used:** Google Maps API, Google Places API, Tailwind, Lucide Icons
 
 ### 📄 Feature 5: Government Scheme Advisor (RAG-based)
 - Natural language Q&A about schemes
 - Uses Gemini Embedding + Pinecone for retrieval
 - Upload PDFs or documents to get context-aware responses
-- **Tech Used:** Gemini LLM, text-embedding-004, Pinecone DB, Firebase
+- **Tech Used:** Gemini LLM, Gemini text-embedding-004, Pinecone DB, Firebase authentication
 
 ### 📊 Feature 6: Market Price Analysis
 - Real-time crop pricing by region, market, date
 - Filterable interactive dashboard powered by Looker Studio
-- **Tech Used:** Agmarknet API, BigQuery, Looker Studio
+- **Tech Used:** Agmarknet API, BigQuery, Google Looker Studio
 
 ## 🛠 Full Tech Stack
 
@@ -56,6 +56,7 @@ Krishi Mithr AI is a powerful AI-powered solution for farmers that combines Gemi
 - Firebase Studio (for UI & flow design)
 - Google Vertex AI (AutoML + LLM)
 - Gemini LLM (text, chat, embedding)
+- Google TTS
 - Pinecone Vector DB
 - Agmarknet API
 - BigQuery
