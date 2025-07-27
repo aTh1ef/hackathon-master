@@ -1,7 +1,7 @@
 # 🌾 Krishi Mithr AI — Smart Farming Assistant
 
 💡 **Overview**
-Krishi Mithr AI is a powerful AI-powered solution for farmers that combines Gemini LLM, Google Vertex AI, Firebase, Pinecone, and a highly interactive UI. Built using modern tools like Next.js and Tailwind, it provides six intelligent, easy-to-use features to make farming smarter.
+Krishi Mithr AI is a powerful AI-powered solution for farmers that combines Gemini LLM, Google Vertex AI, Firebase,Firebase Studio, Pinecone, and a highly interactive UI. Built using modern tools like Next.js and Tailwind, it provides six intelligent, easy-to-use features to make farming smarter.
 
 ## ✨ Features & Tech Stack
 
