@@ -114,10 +114,10 @@ export function AnalysisResultDisplay({ result, isLoading, t }: AnalysisResultDi
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4 text-lg bg-slate-800/50 p-6">
-              <div className="p-4 bg-slate-700/50 rounded-lg border border-slate-600/30">
+              {/* <div className="p-4 bg-slate-700/50 rounded-lg border border-slate-600/30">
                 <p className="font-semibold text-slate-300 mb-1">{t.climateRegionLabel}</p>
                 <p className="font-bold text-xl text-white">{soilAnalysis.climateAnalysis.region}</p>
-              </div>
+              </div> */}
               <div className="p-4 bg-slate-700/50 rounded-lg border border-slate-600/30">
                 <p className="font-semibold text-slate-300 mb-1">{t.climateClimateLabel}</p>
                 <p className="font-bold text-xl text-white">{soilAnalysis.climateAnalysis.climate}</p>

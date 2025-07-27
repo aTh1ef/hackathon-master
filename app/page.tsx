@@ -451,130 +451,134 @@ function CropDiseaseDetector() {
 
                           {/* Treatment Methods - Enhanced */}
                           <div className="space-y-4">
-                            <h2 className="text-2xl font-bold text-white">Treatment Recommendations</h2>
+  <h2 className="text-2xl font-bold text-black">Treatment Recommendations</h2>
 
-                            <div className="grid gap-4">
-                              <div className="bg-green-900/20 border border-green-800/50 rounded-xl p-6">
-                                <h3 className="font-bold text-green-400 mb-4 flex items-center gap-2 text-lg">
-                                  <Sprout className="w-5 h-5" />
-                                  Cultural Control Methods
-                                </h3>
-                                <div className="space-y-3">
-                                  {diagnosis.remedies.cultural.map((remedy, index) => (
-                                    <div key={index} className="flex items-start gap-3 p-3 bg-green-900/10 rounded-lg">
-                                      <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0" />
-                                      <div className="flex-1">
-                                        <p className="text-gray-200 font-semibold mb-1">{remedy}</p>
-                                        <p className="text-gray-400 text-sm">
-                                          {index === 0 && "Ensure proper plant spacing and pruning for better airflow"}
-                                          {index === 1 && "Use drip irrigation or soaker hoses instead of sprinklers"}
-                                          {index === 2 && "Clean up fallen leaves and dispose of them properly"}
-                                          {index === 3 && "Follow a 3-4 year rotation cycle with non-host crops"}
-                                        </p>
-                                      </div>
-                                    </div>
-                                  ))}
-                                </div>
-                              </div>
+  <div className="grid gap-4">
+    <div className="bg-gray-800 border border-gray-700 rounded-xl p-6">
+      <h3 className="font-bold text-green-400 mb-4 flex items-center gap-2 text-lg">
+        <Sprout className="w-5 h-5" />
+        Cultural Control Methods
+      </h3>
+      <div className="space-y-3">
+        {diagnosis.remedies.cultural.map((remedy, index) => (
+          <div key={index} className="flex items-start gap-3 p-3 bg-gray-700/50 rounded-lg">
+            <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+            <div className="flex-1">
+              <p className="text-gray-100 font-semibold mb-1">{remedy}</p>
+              <p className="text-gray-300 text-sm">
+                {index === 0 && "Ensure proper plant spacing and pruning for better airflow"}
+                {index === 1 && "Use drip irrigation or soaker hoses instead of sprinklers"}
+                {index === 2 && "Clean up fallen leaves and dispose of them properly"}
+                {index === 3 && "Follow a 3-4 year rotation cycle with non-host crops"}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
 
-                              <div className="bg-green-900/20 border border-green-800/50 rounded-xl p-6">
-                                <h3 className="font-bold text-green-400 mb-4 flex items-center gap-2 text-lg">
-                                  <Leaf className="w-5 h-5" />
-                                  Biological Control Methods
-                                </h3>
-                                <div className="space-y-3">
-                                  {diagnosis.remedies.biological.map((remedy, index) => (
-                                    <div key={index} className="flex items-start gap-3 p-3 bg-green-900/10 rounded-lg">
-                                      <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0" />
-                                      <div className="flex-1">
-                                        <p className="text-gray-200 font-semibold mb-2">{remedy}</p>
-                                        <div className="text-gray-400 text-sm space-y-1">
-                                          {index === 0 && (
-                                            <div>
-                                              <p className="mb-1">
-                                                <span className="text-green-300 font-semibold">
-                                                  Recommended products:
-                                                </span>{" "}
-                                                Serenade Garden, Cease Biological Fungicide
-                                              </p>
-                                              <p>Apply every 7-14 days as preventive treatment</p>
-                                            </div>
-                                          )}
-                                          {index === 1 && (
-                                            <div>
-                                              <p>Mix 1 part compost with 10 parts water, steep for 24-48 hours</p>
-                                              <p>Strain and spray on leaves during early morning or evening</p>
-                                            </div>
-                                          )}
-                                          {index === 2 && (
-                                            <div>
-                                              <p className="mb-1">
-                                                <span className="text-green-300 font-semibold">Products:</span>{" "}
-                                                Trichoderma-based inoculants, EM-1 Microbial Inoculant
-                                              </p>
-                                              <p>Apply to soil around root zone monthly</p>
-                                            </div>
-                                          )}
-                                        </div>
-                                      </div>
-                                    </div>
-                                  ))}
-                                </div>
-                              </div>
+    <div className="bg-black border border-gray-700 rounded-xl p-6">
+      <h3 className="font-bold text-green-400 mb-4 flex items-center gap-2 text-lg">
+        <Leaf className="w-5 h-5" />
+        Biological Control Methods
+      </h3>
+      <div className="space-y-3">
+        {diagnosis.remedies.biological.map((remedy, index) => (
+          <div key={index} className="flex items-start gap-3 p-3 bg-gray-700/50 rounded-lg">
+            <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0" />
+            <div className="flex-1">
+              <p className="text-gray-100 font-semibold mb-2">{remedy}</p>
+              <div className="text-gray-300 text-sm space-y-1">
+                {index === 0 && (
+                  <div>
+                    <p className="mb-1">
+                      <span className="text-green-300 font-semibold">
+                        Recommended products:
+                      </span>{" "}
+                      Serenade Garden, Cease Biological Fungicide
+                    </p>
+                    <p>Apply every 7-14 days as preventive treatment</p>
+                  </div>
+                )}
+                {index === 1 && (
+                  <div>
+                    <p>Mix 1 part compost with 10 parts water, steep for 24-48 hours</p>
+                    <p>Strain and spray on leaves during early morning or evening</p>
+                  </div>
+                )}
+                {index === 2 && (
+                  <div>
+                    <p className="mb-1">
+                      <span className="text-green-300 font-semibold">Products:</span>{" "}
+                      Trichoderma-based inoculants, EM-1 Microbial Inoculant
+                    </p>
+                    <p>Apply to soil around root zone monthly</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
 
-                              <div className="bg-orange-900/20 border border-orange-800/50 rounded-xl p-6">
-                                <h3 className="font-bold text-orange-400 mb-4 flex items-center gap-2 text-lg">
-                                  <FlaskConical className="w-5 h-5" />
-                                  Chemical Control Methods
-                                </h3>
-                                <div className="space-y-3">
-                                  {diagnosis.remedies.chemical.map((remedy, index) => (
-                                    <div key={index} className="flex items-start gap-3 p-3 bg-orange-900/10 rounded-lg">
-                                      <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
-                                      <div className="flex-1">
-                                        <p className="text-gray-200 font-semibold mb-2">{remedy}</p>
-                                        <div className="text-gray-400 text-sm space-y-1">
-                                          {index === 0 && (
-                                            <div>
-                                              <p className="mb-1">
-                                                <span className="text-orange-300 font-semibold">Products:</span> Bonide
-                                                Copper Fungicide, Southern Ag Liquid Copper Fungicide
-                                              </p>
-                                              <p>Apply every 7-10 days, avoid during hot sunny periods</p>
-                                            </div>
-                                          )}
-                                          {index === 1 && (
-                                            <div>
-                                              <p className="mb-1">
-                                                <span className="text-orange-300 font-semibold">Products:</span> Ortho
-                                                Garden Disease Control, Bayer Advanced Disease Control
-                                              </p>
-                                              <p>Use only for severe infections, follow label instructions carefully</p>
-                                            </div>
-                                          )}
-                                          {index === 2 && (
-                                            <div>
-                                              <p>Rotate between copper-based and systemic fungicides</p>
-                                              <p>Prevents development of fungicide resistance</p>
-                                            </div>
-                                          )}
-                                        </div>
-                                      </div>
-                                    </div>
-                                  ))}
-                                </div>
-                                <div className="mt-4 p-4 bg-orange-900/30 rounded-lg border border-orange-800/30">
-                                  <p className="text-orange-200 text-sm font-semibold flex items-center gap-2">
-                                    <span className="w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center text-xs text-white font-bold">
-                                      !
-                                    </span>
-                                    Always read and follow label instructions. Wear protective equipment when applying
-                                    chemicals.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+    <div className="bg-gray-800 border border-gray-700 rounded-xl p-6">
+      <h3 className="font-bold text-orange-400 mb-4 flex items-center gap-2 text-lg">
+        <FlaskConical className="w-5 h-5" />
+        Chemical Control Methods
+      </h3>
+      <div className="space-y-3">
+        {diagnosis.remedies.chemical.map((remedy, index) => (
+          <div key={index} className="flex items-start gap-3 p-3 bg-gray-700/50 rounded-lg">
+            <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0" />
+            <div className="flex-1">
+              <p className="text-gray-100 font-semibold mb-2">{remedy}</p>
+              <div className="text-gray-300 text-sm space-y-1">
+                {index === 0 && (
+                  <div>
+                    <p className="mb-1">
+                      <span className="text-orange-300 font-semibold">Products:</span> Bonide
+                      Copper Fungicide, Southern Ag Liquid Copper Fungicide
+                    </p>
+                    <p>Apply every 7-10 days, avoid during hot sunny periods</p>
+                  </div>
+                )}
+                {index === 1 && (
+                  <div>
+                    <p className="mb-1">
+                      <span className="text-orange-300 font-semibold">Products:</span> Ortho
+                      Garden Disease Control, Bayer Advanced Disease Control
+                    </p>
+                    <p>Use only for severe infections, follow label instructions carefully</p>
+                  </div>
+                )}
+                {index === 2 && (
+                  <div>
+                    <p>Rotate between copper-based and systemic fungicides</p>
+                    <p>Prevents development of fungicide resistance</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="mt-4 p-4 bg-gray-700/50 rounded-lg border border-gray-600">
+        <p className="text-orange-200 text-sm font-semibold flex items-center gap-2">
+          <span className="w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center text-xs text-white font-bold">
+            !
+          </span>
+          Always read and follow label instructions. Wear protective equipment when applying
+          chemicals.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
                         </div>
                       )}
                     </div>
