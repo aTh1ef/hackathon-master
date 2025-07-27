@@ -53,19 +53,6 @@ export default function FeaturesPage() {
 
   const features = [
     {
-      id: "crop-analysis",
-      title: "Crop Analysis",
-      description:
-        "Analyze your crops using AI-powered image recognition technology for instant disease detection and treatment recommendations",
-      icon: Scan,
-      href: "/crop-doctor",
-      available: true,
-      gradient: "from-emerald-500 to-green-600",
-      bgGradient: "from-emerald-500/10 to-green-600/10",
-      borderColor: "border-emerald-500/20 hover:border-emerald-400/40",
-      features: ["AI Disease Detection", "Instant Results", "Treatment Plans"],
-    },
-    {
       id: "chatbot",
       title: "AI Assistant",
       description:
@@ -79,30 +66,17 @@ export default function FeaturesPage() {
       features: ["24/7 Support", "Voice Recognition", "Multi-Language"],
     },
     {
-      id: "soil-analysis",
-      title: "Soil Analysis & Crop Suggestion",
+      id: "crop-analysis",
+      title: "Crop Analysis",
       description:
-        "Upload a photo of your soil and let our system analyze it along with your farm's location to suggest the best crops to grow. Multilingual support included.",
-      icon: Leaf,
-      href: "/soil-analysis",
+        "Analyze your crops using AI-powered image recognition technology for instant disease detection and treatment recommendations",
+      icon: Scan,
+      href: "/crop-doctor",
       available: true,
-      gradient: "from-yellow-500 to-green-600",
-      bgGradient: "from-yellow-500/10 to-green-600/10",
-      borderColor: "border-yellow-500/20 hover:border-green-400/40",
-      features: ["Soil Image Detection", "Location-Based Crop Advice", "Multi-Language"],
-    },
-    {
-      id: "government-schemes",
-      title: "Government Schemes",
-      description:
-        "Get information about government schemes and policies related to agriculture",
-      icon: Leaf,
-      href: "/government-schemes",
-      available: true,
-      gradient: "from-green-500 to-emerald-600",
-      bgGradient: "from-green-500/10 to-emerald-600/10",
-      borderColor: "border-green-500/20 hover:border-emerald-400/40",
-      features: ["Crop Management", "AI Advice", "Progress Tracking"],
+      gradient: "from-emerald-500 to-green-600",
+      bgGradient: "from-emerald-500/10 to-green-600/10",
+      borderColor: "border-emerald-500/20 hover:border-emerald-400/40",
+      features: ["AI Disease Detection", "Instant Results", "Treatment Plans"],
     },
     {
       id: "maps",
@@ -116,6 +90,22 @@ export default function FeaturesPage() {
       borderColor: "border-gray-600/20",
       features: ["Weather Data", "Soil Analysis", "Location Insights"],
     },
+    
+    {
+      id: "soil-analysis",
+      title: "Soil Analysis & Crop Suggestion",
+      description:
+        "Upload a photo of your soil and let our system analyze it along with your farm's location to suggest the best crops to grow. Multilingual support included.",
+      icon: Leaf,
+      href: "/soil-analysis",
+      available: true,
+      gradient: "from-yellow-500 to-green-600",
+      bgGradient: "from-yellow-500/10 to-green-600/10",
+      borderColor: "border-yellow-500/20 hover:border-green-400/40",
+      features: ["Soil Image Detection", "Location-Based Crop Advice", "Multi-Language"],
+    },
+   
+   
     {
       id: "market-analysis",
       title: "Market Analysis",
@@ -128,6 +118,19 @@ export default function FeaturesPage() {
       bgGradient: "from-gray-500/5 to-gray-600/5",
       borderColor: "border-gray-600/20",
       features: ["Price Trends", "Demand Forecast", "Market Insights"],
+    },
+    {
+      id: "government-schemes",
+      title: "Government Schemes",
+      description:
+        "Get information about government schemes and policies related to agriculture",
+      icon: Leaf,
+      href: "/government-schemes",
+      available: true,
+      gradient: "from-green-500 to-emerald-600",
+      bgGradient: "from-green-500/10 to-emerald-600/10",
+      borderColor: "border-green-500/20 hover:border-emerald-400/40",
+      features: ["Crop Management", "AI Advice", "Progress Tracking"],
     },
    
   ]

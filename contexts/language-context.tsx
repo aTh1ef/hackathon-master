@@ -32,7 +32,7 @@ const translations = {
     "prompts.potato": "Black spots appearing on potato plant stems...",
 
     // Crop Doctor Page
-    "crop.title": "AI Crop Doctor",
+    "crop.title": "Krishi Mithra AI",
     "crop.analyze": "Analyze your crop for diseases",
     "crop.description":
       "Upload or take a photo of your crop to get instant AI-powered disease diagnosis and treatment recommendations.",
@@ -188,7 +188,7 @@ const translations = {
     "prompts.potato": "आलू के पौधे के तने पर काले धब्बे दिखाई दे रहे हैं...",
 
     // Crop Doctor Page
-    "crop.title": "AI फसल डॉक्टर",
+    "crop.title": " कृष्री मित्र एआई",
     "crop.analyze": "अपनी फसल में बीमारियों का विश्लेषण करें",
     "crop.description": "तत्काल AI-संचालित रोग निदान और उपचार सिफारिशें प्राप्त करने के लिए अपनी फसल की फोटो अपलोड या लें।",
     "crop.backHome": "घर वापस",
@@ -340,7 +340,7 @@ const translations = {
     "prompts.potato": "ಆಲೂಗೆಡ್ಡೆ ಗಿಡದ ಕಾಂಡದ ಮೇಲೆ ಕಪ್ಪು ಚುಕ್ಕೆಗಳು ಕಾಣಿಸುತ್ತಿವೆ...",
 
     // Crop Doctor Page
-    "crop.title": "AI ಬೆಳೆ ವೈದ್ಯ",
+    "crop.title": "ಕೃಷ್ರೀ ಮಿತ್ರ ಎಐ",
     "crop.analyze": "ರೋಗಗಳಿಗಾಗಿ ನಿಮ್ಮ ಬೆಳೆಯನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
     "crop.description": "ತತ್ಕ್ಷಣ AI-ಚಾಲಿತ ರೋಗ ನಿರ್ಣಯ ಮತ್ತು ಚಿಕಿತ್ಸೆ ಶಿಫಾರಸುಗಳನ್ನು ಪಡೆಯಲು ನಿಮ್ಮ ಬೆಳೆಯ ಫೋಟೋವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಅಥವಾ ತೆಗೆದುಕೊಳ್ಳಿ.",
     "crop.backHome": "ಮನೆಗೆ ಹಿಂತಿರುಗಿ",
