@@ -17,7 +17,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   en: {
     // Landing Page
-    "landing.title": "Instant AI-Powered Crop Disease Diagnosis",
+    "landing.title": "One Tap to Tackle All Farm Troubles",
     "landing.description":
       "Upload or capture crop images to get instant disease identification, treatment recommendations, and expert agricultural guidance powered by advanced AI.",
     "landing.launch": "Launch App",
@@ -173,7 +173,7 @@ const translations = {
   },
   hi: {
     // Landing Page
-    "landing.title": "तत्काल AI-संचालित फसल रोग निदान",
+    "landing.title": "एक स्पर्श में सभी खेती की समस्याओं का समाधान।",
     "landing.description":
       "उन्नत AI द्वारा संचालित तत्काल रोग पहचान, उपचार सिफारिशें और विशेषज्ञ कृषि मार्गदर्शन प्राप्त करने के लिए फसल की छवियां अपलोड या कैप्चर करें।",
     "landing.launch": "ऐप लॉन्च करें",
@@ -325,7 +325,7 @@ const translations = {
   },
   kn: {
     // Landing Page
-    "landing.title": "ತತ್ಕ್ಷಣ AI-ಚಾಲಿತ ಬೆಳೆ ರೋಗ ನಿರ್ಣಯ",
+    "landing.title": "ಒಂದು ಸ್ಪರ್ಶದಲ್ಲಿ ಎಲ್ಲಾ ಕೃಷಿ ಸಮಸ್ಯೆಗಳಿಗೆ ಪರಿಹಾರ.",
     "landing.description":
       "ಸುಧಾರಿತ AI ಯಿಂದ ಚಾಲಿತ ತತ್ಕ್ಷಣ ರೋಗ ಗುರುತಿಸುವಿಕೆ, ಚಿಕಿತ್ಸೆ ಶಿಫಾರಸುಗಳು ಮತ್ತು ತಜ್ಞ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನವನ್ನು ಪಡೆಯಲು ಬೆಳೆ ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಅಥವಾ ಸೆರೆಹಿಡಿಯಿರಿ.",
     "landing.launch": "ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಾರಂಭಿಸಿ",
