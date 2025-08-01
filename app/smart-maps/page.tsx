@@ -261,8 +261,8 @@ export default function SmartMapsPage() {
   const watchIdRef = useRef<number | null>(null)
   const bestAccuracyRef = useRef<number>(Number.POSITIVE_INFINITY)
 
-  const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "AIzaSyCdks8ksuJY2mQ7BEFb9lzwV2QwKI0vNDQ"
-  const GEMINI_API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "AIzaSyCymnLfrRgWNjmd6J7Me-cJ9e5frpQT1GA"
+  const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY 
+  const GEMINI_API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY 
   const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent"
 
   // Helper function to get nested property from object
